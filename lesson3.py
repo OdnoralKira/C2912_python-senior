@@ -182,3 +182,13 @@ elif self.gladness < 20:
         print("I want to chill, but there is"
               "so much mess…\nSo I will clean"
               "the house")
+        self.clean_home()
+    else:
+        print("Let`s chill!")
+        self.chill()
+elif self.money < 0:
+    print("Start working")
+     self.work()
+elif self.car.strength < 15:
+    print("I need to repair my car")
+    self.to_repair()
