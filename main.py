@@ -30,4 +30,4 @@ print(zero_student)
 del first_student
 del second_student
 del third_student
-del fourth_student
+del zero_student
