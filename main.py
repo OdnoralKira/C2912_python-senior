@@ -17,13 +17,13 @@ class Student:
 first_student = Student('Artur', 24, 'Ukraine')
 second_student = Student('Vasya', 18, 'Poland')
 third_student = Student('Petya', 20, 'Ukraine')
-fourth_student = Student('Anna', 19, 'United Kingdom')
+zero_student = Student('Anna', 19, 'United Kingdom')
 
 # __str__ event
 print(first_student)
 print(second_student)
 print(third_student)
-print(fourth_student)
+print(zero_student)
 
 
 # __del__ event
