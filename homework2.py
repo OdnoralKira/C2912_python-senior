@@ -1,8 +1,10 @@
 #I chose exercise1
+
+
 import random
 
 
-class cat:
+class Cat:
     def __init__(self, name):
         self.name = name
         self.gladness = 50
@@ -57,7 +59,7 @@ class cat:
         self.is_alive()
 
 
-nick = cat(name="Nick")
+nick = Cat(name="Tom")
 
 for day in range(365):
     if nick.alive:
