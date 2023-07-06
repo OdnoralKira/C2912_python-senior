@@ -27,7 +27,6 @@ class Hi(Helloworld):
         print(self._world)
 
 
-
 hello = Helloworld()
 hello.printer()
 hi = Hi()
