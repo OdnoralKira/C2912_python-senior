@@ -13,5 +13,4 @@ def checker(*exc_types):
 @checker(NameError, TypeError, SyntaxError)
 def calculate(expression):
     return eval(expression)
-
 calculate("2+2")
